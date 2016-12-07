@@ -33,6 +33,9 @@ function calculatorModule(x) {
     },
     recallMemory: function(){
       return memory;
+    },
+    saveMemory: function(){
+      memory = total;
     }
   }
 }
@@ -41,11 +44,6 @@ function calculatorModule(x) {
 
 
 
-
-  /**
-   * Return the value stored at `memory`
-   * @return { Number }
-   */
 
 
   /**
