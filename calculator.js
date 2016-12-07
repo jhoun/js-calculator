@@ -24,6 +24,9 @@ function calculatorModule(x) {
     },
     subtract: function(x){
       return total -= x;
+    },
+    multiply: function(x){
+      return total *= x;
     }
   }
 }
@@ -31,10 +34,7 @@ function calculatorModule(x) {
 
 
 
-  /**
-   * Subtracts the value passed in from `total`
-   * @param  { Number } x
-   */
+
 
 
   /**
