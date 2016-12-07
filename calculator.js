@@ -15,23 +15,14 @@ function calculatorModule(x) {
     load: function(x){
       total = x;
       return total;
+    },
+    getTotal: function(){
+      return total;
     }
   }
 }
 
 
-
-  /**
-   * sets the `total` to the number passed in
-   * @param  { Number } x
-   * @return { Number }    current total
-   */
-
-
-  /**
-   * Return the value of `total`
-   * @return { Number }
-   */
 
 
   /**
