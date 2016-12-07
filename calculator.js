@@ -7,8 +7,8 @@
  */
 function calculatorModule(x) {
   //Private variables
-  var memory;
-  var total = x;
+  var memory = 0;
+  var total = 0;
 
   //Public
   return {
