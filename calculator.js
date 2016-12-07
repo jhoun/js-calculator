@@ -18,17 +18,14 @@ function calculatorModule(x) {
     },
     getTotal: function(){
       return total;
+    },
+    add: function(x){
+      return total += x;
     }
   }
 }
 
 
-
-
-  /**
-   * Sums the value passed in with `total`
-   * @param { Number } x
-   */
 
 
   /**
