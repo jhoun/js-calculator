@@ -14,9 +14,11 @@ function calculatorModule(x) {
   return {
     load: function(x){
       total = x;
+      return total;
     }
   }
 }
+
 
 
   /**
