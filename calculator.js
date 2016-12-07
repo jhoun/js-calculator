@@ -21,6 +21,9 @@ function calculatorModule(x) {
     },
     add: function(x){
       return total += x;
+    },
+    subtract: function(x){
+      return total -= x;
     }
   }
 }
