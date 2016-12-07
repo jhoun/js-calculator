@@ -9,31 +9,52 @@ function calculatorModule(x) {
   //Private variables
   var memory = 0;
   var total = 0;
-
-  //Public
+  var isValid = function(x){
+    if(typeof x === "number"){
+      return true;
+    }
+    else{
+      throw new Error("Error");
+    }
+  }
+  //Public()
   return {
     load: function(x){
-      total = x;
-      return total;
+      if (isValid(x)){
+        total = x;
+        return total;
+      }
     },
     getTotal: function(){
-      return total;
+
+        return total;
+
     },
     add: function(x){
-      return total += x;
+      if (isValid(x)) {
+        return total += x;
+      }
     },
     subtract: function(x){
-      return total -= x;
+      if (isValid(x)){
+        return total -= x;
+      }
     },
     multiply: function(x){
-      return total *= x;
+      if (isValid(x)){
+        return total *= x;
+      }
     },
     divide: function(x){
-      return total /= x;
+      if (isValid(x)){
+        return total /= x;
+      }
     },
     recallMemory: function(){
-      return memory;
-    },
+
+        return memory;
+      },
+
     saveMemory: function(){
       memory = total;
     },
@@ -43,13 +64,6 @@ function calculatorModule(x) {
   }
 }
 
-
-
-
-
-  /**
-   * Clear the value stored at `memory`
-   */
 
   /**
    * Validation
