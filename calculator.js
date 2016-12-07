@@ -30,16 +30,16 @@ function calculatorModule(x) {
     },
     divide: function(x){
       return total /= x;
+    },
+    recallMemory: function(){
+      return memory;
     }
   }
 }
 
 
 
-  /**
-   * Divides the value passing in by `total`
-   * @param  { Number } x
-   */
+
 
 
   /**
