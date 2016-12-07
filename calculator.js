@@ -27,20 +27,13 @@ function calculatorModule(x) {
     },
     multiply: function(x){
       return total *= x;
+    },
+    divide: function(x){
+      return total /= x;
     }
   }
 }
 
-
-
-
-
-
-
-  /**
-   * Multiplies the value by `total`
-   * @param  { Number } x
-   */
 
 
   /**
