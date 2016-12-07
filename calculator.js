@@ -5,6 +5,18 @@
  * @variable PRIVATE { Number } `total`
  * @return {object} `calculator` object that can be used
  */
+function calculatorModule(x) {
+  //Private variables
+  var memory;
+  var total = x;
+
+  //Public
+  return {
+    load: function(x){
+      total = x;
+    }
+  }
+}
 
 
   /**
