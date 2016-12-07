@@ -26,9 +26,7 @@ function calculatorModule(x) {
       }
     },
     getTotal: function(){
-
         return total;
-
     },
     add: function(x){
       if (isValid(x)) {
@@ -51,10 +49,8 @@ function calculatorModule(x) {
       }
     },
     recallMemory: function(){
-
         return memory;
       },
-
     saveMemory: function(){
       memory = total;
     },
@@ -63,9 +59,3 @@ function calculatorModule(x) {
     }
   }
 }
-
-
-  /**
-   * Validation
-   */
-
